@@ -14,7 +14,10 @@ function App() {
         />
         <meta property="og:title" content="Vite + React" />
         <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta
+          property="og:image"
+          content="https://travis.media/images/2019/12/change-the-open-graph-image-size.jpg"
+        />
 
         <meta name="twitter:card" content="summary_large_image/" />
         <meta
