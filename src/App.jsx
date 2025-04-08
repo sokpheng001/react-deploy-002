@@ -12,15 +12,15 @@ function App() {
         />
 
         {/* Open Graph (Facebook, LinkedIn, etc.) */}
-        <meta property="og:title" content="Welcome to My React App" />
+        <meta name="og:title" content="Welcome to My React App" />
         <meta
-          property="og:description"
+          name="og:description"
           content="Explore the best React content here."
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://yourdomain.com/" />
+        <meta name="og:type" content="website" />
+        <meta name="og:url" content="https://yourdomain.com/" />
         <meta
-          property="og:image"
+          name="og:image"
           content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh3Z0RTY1Ot7U5GQWr7uwjFX_HMZB85SZ9EA&s"
         />
       </Helmet>
