@@ -5,23 +5,31 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Home | My React App</title>
-        <meta
-          name="description"
-          content="Welcome to the homepage of My React App."
-        />
+        <title>Vite + React</title>
+        <meta name="description" content="" />
 
-        {/* Open Graph (Facebook, LinkedIn, etc.) */}
-        <meta name="og:title" content="Welcome to My React App" />
         <meta
-          name="og:description"
-          content="Explore the best React content here."
+          property="og:url"
+          content="https://react-sigma-murex.vercel.app/"
         />
-        <meta name="og:type" content="website" />
-        <meta name="og:url" content="https://yourdomain.com/" />
+        <meta property="og:title" content="Vite + React" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="" />
+
+        <meta name="twitter:card" content="summary_large_image/" />
         <meta
-          name="og:image"
-          content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh3Z0RTY1Ot7U5GQWr7uwjFX_HMZB85SZ9EA&s"
+          property="twitter:domain"
+          content="react-sigma-murex.vercel.app"
+        />
+        <meta
+          property="twitter:url"
+          content="https://react-sigma-murex.vercel.app/"
+        />
+        <meta name="twitter:title" content="Vite + React" />
+        <meta name="twitter:description" content="" />
+        <meta
+          name="twitter:image"
+          content="https://travis.media/images/2019/12/change-the-open-graph-image-size.jpg"
         />
       </Helmet>
       <main className="flex justify-center h-screen flex-col items-center">
